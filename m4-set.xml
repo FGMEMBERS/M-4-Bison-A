@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <PropertyList include="m4-jsbsim-cnf.xml"> -->
+<PropertyList include="m4-yasim-cnf.xml">
+
+  <sim>
+
+    <description>Myasishev M4 bison (YASim)</description>
+    <author>BARANGER Emmanuel</author>
+
+    <rating>
+      <FDM type="int">     1 </FDM>
+      <systems type="int"> 1 </systems>
+      <cockpit type="int"> 0 </cockpit>
+      <model type="int">   3 </model>
+    </rating>
+
+  </sim>
+
+</PropertyList>
+
