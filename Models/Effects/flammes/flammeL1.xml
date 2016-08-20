@@ -1,33 +1,3 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?>
-
-<PropertyList>
-
-  <path>flammes.ac</path>
-
-  <animation>
-    <!-- Objets transparents -->
-    <object-name>flamme1</object-name>
-    <object-name>flamme2</object-name>
-    <object-name>flamme3</object-name>
-  </animation>
-
-  <animation>
-    <type>noshadow</type>
-    <object-name>flamme1</object-name>
-    <object-name>flamme1</object-name>
-    <object-name>flamme2</object-name>
-  </animation>
-
-  <!-- Rotation des fleammes des réacteurs -->
-  <animation>
-    <type>spin</type>
-    <object-name>flamme1</object-name>
-    <object-name>flamme2</object-name>
-    <object-name>flamme3</object-name>
-    <property>controls/engines/engine[0]/throttle</property>
-    <factor> 100 </factor>
-=======
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
@@ -80,59 +50,12 @@
     <!-- engines/engine[0]/n1 -->
     <property>sim/multiplay/generic/float[4]</property>
     <factor> 240 </factor>
->>>>>>> svn/master
     <axis>
       <x> 1 </x>
       <y> 0 </y>
       <z> 0 </z>
     </axis>
   </animation>
-<<<<<<< HEAD
-
-  <animation>
-    <type>select</type>
-    <object-name>flamme1</object-name>
-    <condition>
-      <greater-than>
-        <property>controls/engines/engine[0]/throttle</property>
-        <value>0.8</value>
-      </greater-than>
-      <less-than>
-        <property>controls/engines/engine[0]/throttle</property>
-        <value>0.9</value>
-      </less-than>
-    </condition>
-  </animation>
-
-  <animation>
-    <type>select</type>
-    <object-name>flamme2</object-name>
-    <condition>
-      <greater-than>
-        <property>controls/engines/engine[0]/throttle</property>
-        <value>0.9</value>
-      </greater-than>
-      <less-than>
-        <property>controls/engines/engine[0]/throttle</property>
-        <value>1</value>
-      </less-than>
-    </condition>
-  </animation>
-
-  <animation>
-    <type>select</type>
-    <object-name>flamme3</object-name>
-    <condition>
-      <equals>
-        <property>controls/engines/engine[0]/throttle</property>
-        <value>1</value>
-      </equals>
-    </condition>
-  </animation>
-
-</PropertyList>
-
-=======
   
   <animation>
     <type>spin</type>
@@ -174,4 +97,3 @@
   </animation>
   
 </PropertyList>
->>>>>>> svn/master

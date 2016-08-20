@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?>
-=======
 <?xml version="1.0" encoding="ISO-8859-1"?>
->>>>>>> svn/master
 
 <PropertyList>
 
@@ -17,8 +13,6 @@
           <script>aircraft.livery.dialog.toggle()</script>
         </binding>
       </item>
-<<<<<<< HEAD
-=======
       <item>
         <label>Show/hide Yokes</label>
         <binding>
@@ -26,12 +20,7 @@
           <property>/sim/model/hide-yoke</property>
         </binding>
       </item>
->>>>>>> svn/master
     </menu>
   </default>
 
 </PropertyList>
-<<<<<<< HEAD
-
-=======
->>>>>>> svn/master

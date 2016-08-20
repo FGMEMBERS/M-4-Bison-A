@@ -1,21 +1,14 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?>
-=======
 <?xml version="1.0" encoding="ISO-8859-1"?>
->>>>>>> svn/master
 
 <PropertyList>
 
   <path>m4.ac</path>
 
-<<<<<<< HEAD
-=======
   <!-- MP sound call -->
   <sound>
     <path>Aircraft/M-4-Bison-A/Sounds/mp-sound.xml</path>
   </sound>
   
->>>>>>> svn/master
   <nasal>
     <load>
       var livery_update = aircraft.livery_update.new("Aircraft/M-4-Bison-A/Models/Liveries", 10);
@@ -39,11 +32,7 @@
     </unload>
   </nasal>
 
-<<<<<<< HEAD
- <animation>
-=======
   <animation>
->>>>>>> svn/master
     <!-- Objets opaques -->
     <object-name>fuselage</object-name>
     <object-name>ailes</object-name>
@@ -148,48 +137,14 @@
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
     <texture>texture.png</texture>
-<<<<<<< HEAD
-<!--
-    <diffuse>
-      <red-prop>diffuse/red</red-prop>
-      <green-prop>diffuse/green</green-prop>
-      <blue-prop>diffuse/blue</blue-prop>
-    </diffuse>
-
-    <ambient>
-      <red-prop>ambient/red</red-prop>
-      <green-prop>ambient/green</green-prop>
-      <blue-prop>ambient/blue</blue-prop>
-    </ambient>
--->
-=======
->>>>>>> svn/master
     <specular>
       <red-prop>specular/red</red-prop>
       <green-prop>specular/green</green-prop>
       <blue-prop>specular/blue</blue-prop>
     </specular>
-<<<<<<< HEAD
-
-    <emission>
-      <red-prop>emission/red</red-prop>
-      <green-prop>emission/green</green-prop>
-      <blue-prop>emission/blue</blue-prop>
-    </emission>
-<!--
-    <shininess>
-      <shininess-prop>shininess</shininess-prop>
-    </shininess>
--->
   </animation>
 
   <effect>
-    <!-- <inherits-from>Aircraft/M-4-Bison-A/Models/Effects/BumpMap/bumpmap</inherits-from> -->
-=======
-  </animation>
-
-  <effect>
->>>>>>> svn/master
     <inherits-from>Aircraft/Generic/Effects/Fuselagereflect</inherits-from>
     <object-name>fuselage</object-name>
     <object-name>ailes</object-name>
@@ -219,20 +174,6 @@
     <object-name>perche</object-name>
   </effect>
 
-<<<<<<< HEAD
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
-    <object-name>vitres</object-name>
-  </animation>
-
-  <animation>
-    <type>noshadow</type>
-    <object-name>vitres</object-name>
-  </animation>
-
-=======
   <!-- working for Rembrandt -->
   <effect>
     <inherits-from>Aircraft/M-4-Bison-A/Models/Effects/glass/glass</inherits-from>
@@ -244,7 +185,6 @@
     <object-name>vitres</object-name>
   </effect>
   
->>>>>>> svn/master
   <!-- Une ombre pour OSG -->
   <model>
     <name>shadowOSG</name>
@@ -473,8 +413,6 @@
     </offsets>
   </model>
 
-<<<<<<< HEAD
-=======
   <!-- Tip trails -->
   <model>
     <path>Aircraft/M-4-Bison-A/Models/Effects/tiptrail/tiptrail.xml</path>
@@ -541,7 +479,6 @@
     </axis>
   </animation>
   
->>>>>>> svn/master
   <!-- Les ailerons -->
   <animation>
     <type>rotate</type>
@@ -628,56 +565,6 @@
     </axis>
   </animation>
 
-<<<<<<< HEAD
-  <!-- Gouverne de direction -->
-  <animation>
-    <type>rotate</type>
-    <object-name>direction</object-name>
-    <property>surface-positions/rudder-pos-norm</property>
-    <factor> -20 </factor>
-    <axis>
-      <x1-m> 17.91000 </x1-m>
-      <y1-m>  0.00000 </y1-m>
-      <z1-m>  0.09869 </z1-m>
-      <x2-m> 20.41300 </x2-m>
-      <y2-m>  0.00000 </y2-m>
-      <z2-m>  5.94700 </z2-m>
-    </axis>
-  </animation>
-
-  <!-- Gouverne de profondeur -->
-  <animation>
-    <type>rotate</type>
-    <object-name>profondeurG</object-name>
-    <property>surface-positions/elevator-pos-norm</property>
-    <factor> 15 </factor>
-    <axis>
-      <x1-m> 22.765 </x1-m>
-      <y1-m> -7.104 </y1-m>
-      <z1-m> -0.336 </z1-m>
-      <x2-m> 19.672 </x2-m>
-      <y2-m> -0.864 </y2-m>
-      <z2-m> -0.354 </z2-m>
-    </axis>
-  </animation>
-
-  <animation>
-    <type>rotate</type>
-    <object-name>profondeurD</object-name>
-    <property>surface-positions/elevator-pos-norm</property>
-    <factor> 15 </factor>
-    <axis>
-      <x1-m> 19.672 </x1-m>
-      <y1-m>  0.864 </y1-m>
-      <z1-m> -0.354 </z1-m>
-      <x2-m> 22.765 </x2-m>
-      <y2-m>  7.104 </y2-m>
-      <z2-m> -0.336 </z2-m>
-    </axis>
-  </animation>
-
-=======
->>>>>>> svn/master
   <!-- Animation des portes des trains -->
   <animation>
     <type>rotate</type>
@@ -1040,8 +927,6 @@
     </axis>
   </animation>
 
-<<<<<<< HEAD
-=======
   <!-- Rotation des roues avant en fonction de la gouverne de direction -->
   <animation>
     <type>rotate</type>
@@ -1066,7 +951,6 @@
     </axis>
   </animation>
   
->>>>>>> svn/master
   <!-- Rotation des roues lors du roulage -->
   <animation>
     <type>spin</type>
@@ -1170,8 +1054,6 @@
     </axis>
   </animation>
  
-<<<<<<< HEAD
-=======
   <!-- Ajout des effets lumineux -->
   <model>
     <path>Aircraft/M-4-Bison-A/Models/light/beacon.xml</path>
@@ -1227,5 +1109,4 @@
     </offsets>
   </model>
   
->>>>>>> svn/master
 </PropertyList>

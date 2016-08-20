@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0"?>
-=======
 <?xml version="1.0" encoding="ISO-8859-1"?>
->>>>>>> svn/master
 
 <PropertyList>
 
@@ -10,11 +6,7 @@
 
     <engine>
       <name>engine</name>
-<<<<<<< HEAD
-      <path>Sounds/jet.wav</path>
-=======
       <path>Aircraft/M-4-Bison-A/Sounds/engines.wav</path>
->>>>>>> svn/master
       <mode>looped</mode>
       <condition>
         <property>/engines/engine[0]/running</property>
@@ -31,11 +23,7 @@
 
     <engine>
       <name>whine</name>
-<<<<<<< HEAD
-      <path>Sounds/whine.wav</path>
-=======
       <path>Aircraft/M-4-Bison-A/Sounds/air.wav</path>
->>>>>>> svn/master
       <mode>looped</mode>
       <condition>
         <property>/engines/engine[0]/running</property>
@@ -54,11 +42,7 @@
 
     <engine>
       <name>engine</name>
-<<<<<<< HEAD
-      <path>Sounds/jet.wav</path>
-=======
       <path>Aircraft/M-4-Bison-A/Sounds/engines.wav</path>
->>>>>>> svn/master
       <mode>looped</mode>
       <condition>
         <property>/engines/engine[1]/running</property>
@@ -75,11 +59,7 @@
 
     <engine>
       <name>whine</name>
-<<<<<<< HEAD
-      <path>Sounds/whine.wav</path>
-=======
       <path>Aircraft/M-4-Bison-A/Sounds/air.wav</path>
->>>>>>> svn/master
       <mode>looped</mode>
       <condition>
         <property>/engines/engine[1]/running</property>
@@ -96,12 +76,6 @@
       </pitch>
     </engine>
 
-<<<<<<< HEAD
-    <rumble>
-      <name>rumble</name>
-      <mode>looped</mode>
-      <path>Sounds/rumble.wav</path>
-=======
     <engine>
       <name>engine</name>
       <path>Aircraft/M-4-Bison-A/Sounds/engines.wav</path>
@@ -178,7 +152,6 @@
       <name>rumble</name>
       <mode>looped</mode>
       <path>Aircraft/M-4-Bison-A/Sounds/rumble.wav</path>
->>>>>>> svn/master
       <condition>
         <property>/gear/gear[0]/wow</property>
       </condition>
@@ -195,11 +168,7 @@
     <rumble>
       <name>rumble</name>
       <mode>looped</mode>
-<<<<<<< HEAD
-      <path>Sounds/rumble.wav</path>
-=======
       <path>Aircraft/M-4-Bison-A/Sounds/rumble.wav</path>
->>>>>>> svn/master
       <condition>
         <property>/gear/gear[1]/wow</property>
       </condition>
@@ -213,11 +182,7 @@
     <rumble>
       <name>rumble</name>
       <mode>looped</mode>
-<<<<<<< HEAD
-      <path>Sounds/rumble.wav</path>
-=======
       <path>Aircraft/M-4-Bison-A/Sounds/rumble.wav</path>
->>>>>>> svn/master
       <condition>
         <property>/gear/gear[2]/wow</property>
       </condition>
@@ -228,8 +193,6 @@
       </volume>
     </rumble>
 
-<<<<<<< HEAD
-=======
     <rumble>
       <name>rumble</name>
       <mode>looped</mode>
@@ -244,7 +207,6 @@
       </volume>
     </rumble>
     
->>>>>>> svn/master
     <gear>
       <name>gear</name>
       <mode>in-transit</mode>
@@ -428,11 +390,7 @@
     <flap>
       <name>flaps</name>
       <mode>in-transit</mode>
-<<<<<<< HEAD
-      <path>Sounds/flaps.wav</path>
-=======
       <path>Aircraft/M-4-Bison-A/Sounds/flaps.wav</path>
->>>>>>> svn/master
       <property>/surface-positions/left-flap-pos-norm</property>
       <volume>
         <factor>0.15</factor>
@@ -442,60 +400,13 @@
     <flap>
       <name>flaps</name>
       <mode>in-transit</mode>
-<<<<<<< HEAD
-      <path>Sounds/flaps.wav</path>
-=======
       <path>Aircraft/M-4-Bison-A/Sounds/flaps.wav</path>
->>>>>>> svn/master
       <property>/surface-positions/right-flap-pos-norm</property>
       <volume>
         <factor>0.25</factor>
       </volume>
     </flap>
 
-<<<<<<< HEAD
-    <spoiler>
-      <name>spoilers</name>
-      <mode>in-transit</mode>
-      <path>Sounds/flaps.wav</path>
-      <property>/surface-positions/left-lower-spoiler-pos-norm</property>
-      <volume>
-        <factor>0.15</factor>
-      </volume>
-    </spoiler>
-
-    <spoiler>
-      <name>spoilers</name>
-      <mode>in-transit</mode>
-      <path>Sounds/flaps.wav</path>
-      <property>/surface-positions/left-upper-spoiler-pos-norm</property>
-      <volume>
-        <factor>0.15</factor>
-      </volume>
-    </spoiler>
-
-    <spoiler>
-      <name>spoilers</name>
-      <mode>in-transit</mode>
-      <path>Sounds/flaps.wav</path>
-      <property>/surface-positions/right-lower-spoiler-pos-norm</property>
-      <volume>
-        <factor>0.25</factor>
-      </volume>
-    </spoiler>
-
-    <spoiler>
-      <name>spoilers</name>
-      <mode>in-transit</mode>
-      <path>Sounds/flaps.wav</path>
-      <property>/surface-positions/right-upper-spoiler-pos-norm</property>
-      <volume>
-        <factor>0.25</factor>
-      </volume>
-    </spoiler>
-
-=======
->>>>>>> svn/master
     <wind>
       <name>wind</name>
       <mode>looped</mode>
