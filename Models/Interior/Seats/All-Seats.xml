@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<PropertyList>
+
+  <!-- Cockpit -->
+  <!-- Seats -->
+  <model>
+    <path>Aircraft/M-4-Bison-A/Models/Interior/Seats/pilotseat.xml</path>
+    <offsets>
+      <x-m> -16.68 </x-m>
+      <y-m>  -0.50 </y-m>
+      <z-m>  -2.70 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/M-4-Bison-A/Models/Interior/Seats/pilotseat.xml</path>
+    <offsets>
+      <x-m> -16.68 </x-m>
+      <y-m>   0.50 </y-m>
+      <z-m>  -2.70 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>

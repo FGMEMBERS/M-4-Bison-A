@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
+=======
+<?xml version="1.0" encoding="ISO-8859-1"?>
+>>>>>>> svn/master
 
 <PropertyList>
 
@@ -8,11 +12,17 @@
     <!-- Objets opaques -->
     <object-name>interieur</object-name>
     <object-name>inttour</object-name>
+<<<<<<< HEAD
 
+=======
+    <object-name>planchet</object-name>
+    
+>>>>>>> svn/master
     <!-- Objets transparents -->
     <object-name>intvitres</object-name>
   </animation>
 
+<<<<<<< HEAD
   <animation>
     <type>noshadow</type>
     <object-name>intvitres</object-name>
@@ -25,6 +35,13 @@
     <object-name>intvitres</object-name>
   </animation>
 
+=======
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>intvitres</object-name>
+  </effect>
+  
+>>>>>>> svn/master
   <!-- Pilote -->
   <model>
     <path>Aircraft/M-4-Bison-A/Models/Pilot/pilot.xml</path>
@@ -35,6 +52,7 @@
     </offsets>
   </model>
 
+<<<<<<< HEAD
   <!-- Planche de bord
   <model>
     <path>Aircraft/M-4-Bison-A/Models/Interior/Panel/panel.xml</path>
@@ -47,3 +65,21 @@
 
 </PropertyList>
 
+=======
+  <!-- Planche de bord -->
+  <model>
+    <path>Aircraft/M-4-Bison-A/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> -17.691 </x-m>
+      <y-m>   0.000 </y-m>
+      <z-m>  -2.445 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Seats -->
+  <model>
+    <path>Aircraft/M-4-Bison-A/Models/Interior/Seats/All-Seats.xml</path>
+  </model>
+  
+</PropertyList>
+>>>>>>> svn/master

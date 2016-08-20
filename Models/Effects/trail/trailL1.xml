@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
+=======
+<?xml version="1.0" encoding="ISO-8859-1"?>
+>>>>>>> svn/master
 
 <PropertyList>
 
   <particlesystem>
+<<<<<<< HEAD
+=======
+
+>>>>>>> svn/master
     <name>smoke</name>
     <texture>smoke.png</texture>
 
@@ -12,11 +20,21 @@
     <condition>
       <and>
         <greater-than>
+<<<<<<< HEAD
           <property>/engines/engine[0]/n2</property>
           <value>50</value>
         </greater-than>
         <greater-than>
           <property>/position/altitude-ft</property>
+=======
+          <!-- engines/engine[0]/n1 -->
+          <property>sim/multiplay/generic/float[4]</property>
+          <value>50</value>
+        </greater-than>
+        <greater-than>
+          <!-- position/altitude-ft -->
+          <property>sim/multiplay/generic/float[3]</property>
+>>>>>>> svn/master
           <value>3000</value>
         </greater-than>
       </and>
@@ -29,6 +47,7 @@
     </placer>
 
     <shooter>
+<<<<<<< HEAD
       <theta-min-deg>-1.5</theta-min-deg>
       <theta-max-deg>1.5</theta-max-deg>
       <phi-min-deg>-1.5</phi-min-deg>
@@ -44,13 +63,35 @@
         <x-max-deg-sec>0</x-max-deg-sec>
         <y-max-deg-sec>0</y-max-deg-sec>
         <z-max-deg-sec>0</z-max-deg-sec>
+=======
+      <theta-min-deg> -1.5 </theta-min-deg>
+      <theta-max-deg>  1.5 </theta-max-deg>
+      <phi-min-deg>   -1.5 </phi-min-deg>
+      <phi-max-deg>    1.5 </phi-max-deg>
+      <speed-mps>
+        <value>  0 </value>
+        <spread> 0 </spread>
+      </speed-mps>
+      <rotation-speed>
+        <x-min-deg-sec> 0 </x-min-deg-sec>
+        <y-min-deg-sec> 0 </y-min-deg-sec>
+        <z-min-deg-sec> 0 </z-min-deg-sec>
+        <x-max-deg-sec> 0 </x-max-deg-sec>
+        <y-max-deg-sec> 0 </y-max-deg-sec>
+        <z-max-deg-sec> 0 </z-max-deg-sec>
+>>>>>>> svn/master
       </rotation-speed>
     </shooter>
 
     <counter>
       <particles-per-sec>
+<<<<<<< HEAD
         <value>35</value>
         <spread>0</spread>
+=======
+        <value> 35 </value>
+        <spread> 0 </spread>
+>>>>>>> svn/master
       </particles-per-sec>
     </counter>
       
@@ -71,6 +112,7 @@
 
       <end>
         <color>
+<<<<<<< HEAD
           <red><value>   1.0 </value></red>
           <green><value> 1.0 </value></green>
           <blue><value>  1.0 </value></blue>
@@ -78,11 +120,24 @@
         </color>
         <size>
           <value>4</value>
+=======
+          <red><value>   1 </value></red>
+          <green><value> 1 </value></green>
+          <blue><value>  1 </value></blue>
+          <alpha><value> 1 </value></alpha>
+        </color>
+        <size>
+          <value> 4 </value>
+>>>>>>> svn/master
         </size>
       </end>
 
       <life-sec>
+<<<<<<< HEAD
         <value>10</value>
+=======
+        <value> 10 </value>
+>>>>>>> svn/master
       </life-sec>
         
       <mass-kg>  0.5 </mass-kg>
@@ -98,4 +153,7 @@
   </particlesystem>
 
 </PropertyList>
+<<<<<<< HEAD
 
+=======
+>>>>>>> svn/master
